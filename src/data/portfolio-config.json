@@ -1,0 +1,248 @@
+{
+  "main": {
+    "name": "Roshan Sharma",
+    "occupation": "Full Stack Software Developer",
+    "description": "ReactJS, Redux, NodeJS, Express, JavaScript",
+    "image": "/lovable-uploads/f4cb0829-d74c-44d4-93f7-6c901b0b8db3.png",
+    "bio": "Passionate Full Stack Software Engineer with more than 5 years of professional experience in developing enterprise products using ReactJS, Redux, NodeJS, Express, JavaScript, SQL, MongoDB, Material UI, Bootstrap, HTML5, CSS3.",
+    "contactmessage": "Get in touch with me to receive further details.",
+    "email": "roshansharma406@gmail.com",
+    "phone": "+91 9766084483",
+    "address": {
+      "street": "Sneha Vihar,",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "zip": "411023"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "https://drive.google.com/file/d/1gup1SH1oALK6iVtzTrM8iOGFXNnsRMVy/view?usp=sharing",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/roshan406",
+        "icon": "facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ross406",
+        "icon": "linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/ross_truegamer",
+        "icon": "instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/ross406",
+        "icon": "github"
+      }
+    ]
+  },
+  "certifications": [
+    {
+      "title": "HackerRank React (Basic) Certificate",
+      "issuer": "HackerRank",
+      "date": "Feb 2022",
+      "credentialId": "1ECC5B773056",
+      "url": "https://www.hackerrank.com/certificates/1ECC5B773056"
+    },
+    {
+      "title": "HackerRank Problem Solving (Basic) Certificate",
+      "issuer": "HackerRank",
+      "date": "Sep 2020",
+      "credentialId": "015747E2EEDA",
+      "url": "https://www.hackerrank.com/certificates/015747E2EEDA"
+    }
+  ],
+  "resume": {
+    "skillmessage": "Here you can see my skills.",
+    "education": [
+      {
+        "school": "Sinhgad Institute of Management, Pune",
+        "degree": "Master of Computer Application (MCA)",
+        "graduated": "April 2023",
+        "description": "First Class with Distinction - Grade 76.8%"
+      },
+      {
+        "school": "Modern College of Arts, Science and Commerce, Pune",
+        "degree": "Bachelor of Business Administration (BBA)",
+        "graduated": "April 2021",
+        "description": "First Class with Distinction - Grade 77.7%"
+      }
+    ],
+    "work": [
+      {
+        "company": "Tecnotree",
+        "title": "Lead Developer",
+        "years": "From May 2024",
+        "description": "Led the design and development of a Bill Layout Designer using React, incorporating the react-dnd library for intuitive drag-and-drop functionality. Developed a Config-Driven UI using JSON schema to dynamically define and manage widgets and styles. Implemented a Socket.IO connection in Node.js to enable real-time saving of templates. Improved application performance by reducing execution time by 80% through the implementation of Memoization, significantly optimizing data processing and rendering."
+      },
+      {
+        "company": "Team Geek Solutions",
+        "title": "Software Engineer",
+        "years": "Dec 2021 - May 2024",
+        "description": "Developed and deployed a Discord Bot to facilitate matchmaking between players and manage dynamic teams for the Pittsburgh Knights (US based client), enhancing user engagement and team coordination. Designed and maintained NestJS microservices with seamless communication via NATS, integrated Redis caching to optimize performance and reduce response times. Utilizing DrizzleORM with PostgreSQL for efficient database management, ensuring a robust, scalable backend architecture. Built an AdminPanel using Next.js, leveraging server and client components to deliver a dynamic, high-performance user interface for better administrative control and user experience"
+      },
+      {
+        "company": "LitmusBlox",
+        "title": "Software Engineer",
+        "years": "Nov 2020 - Dec 2021",
+        "description": "LitmusBlox is an AI-powered platform that enables hiring managers to define jobs and helps the talent team to identify right-fit candidates exactly matching the job requirement. Worked as a Full Stack Software Developer and was responsible for developing modules assigned. Responsible for developing ReactJS client. Responsible for developing REST APIs with Node and Express. Designing and developing automation solutions for data extraction from the web with ReactJS."
+      },
+      {
+        "company": "Broadway Society",
+        "title": "Software Engineer - Intern",
+        "years": "April 2020 - July 2020",
+        "description": "Worked on a Movie reviews website a MERN stack Project. Worked as a Full Stack Software Developer. Worked on the Front End of the website which is built using React.js. Worked on the Back End of the website which is built using Node.js and Express. Managed MongoDB web database. Deployed the website on Heroku."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "95%",
+        "category": "Frontend"
+      },
+      {
+        "name": "Redux",
+        "level": "95%",
+        "category": "State Management"
+      },
+      {
+        "name": "NextJs",
+        "level": "80%",
+        "category": "Frontend"
+      },
+      {
+        "name": "NodeJs",
+        "level": "80%",
+        "category": "Backend"
+      },
+      {
+        "name": "NestJs",
+        "level": "80%",
+        "category": "Backend"
+      },
+      {
+        "name": "JavaScript",
+        "level": "90%",
+        "category": "Language"
+      },
+      {
+        "name": "TypeScript",
+        "level": "80%",
+        "category": "Language"
+      },
+      {
+        "name": "MongoDB",
+        "level": "80%",
+        "category": "Database"
+      },
+      {
+        "name": "MySQL",
+        "level": "80%",
+        "category": "Database"
+      },
+      {
+        "name": "HTML5",
+        "level": "70%",
+        "category": "Frontend"
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": "70%",
+        "category": "Styling"
+      },
+      {
+        "name": "CSS",
+        "level": "70%",
+        "category": "Styling"
+      },
+      {
+        "name": "Git",
+        "level": "70%",
+        "category": "Tools"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "ProShop",
+        "category": "E-commerce",
+        "description": "E-commerce website built with MERN stack with Razorpay payment gateway",
+        "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=250&fit=crop",
+        "url": "https://proshop-fe.netlify.app/",
+        "github": "https://github.com/ross406/ProShop-FE",
+        "technologies": ["React", "Node.js", "MongoDB", "Razorpay"]
+      },
+      {
+        "title": "EchoTube",
+        "category": "Video Streaming",
+        "description": "Video streaming site with YouTube API integration",
+        "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=400&h=250&fit=crop",
+        "url": "https://echotube-fe.netlify.app/",
+        "github": "https://github.com/ross406/ecotube",
+        "technologies": ["React", "YouTube API", "CSS3"]
+      },
+      {
+        "title": "Food Studio",
+        "category": "Food Delivery",
+        "description": "Food Delivery App Developed with React and Parcel Bundler",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=250&fit=crop",
+        "url": "https://foodstudio-fe.netlify.app/",
+        "github": "https://github.com/ross406/FoodStudio",
+        "technologies": ["React", "Parcel", "API Integration"]
+      },
+      {
+        "title": "Netflix With GPT",
+        "category": "Entertainment",
+        "description": "Netflix Clone built with ReactJS and Chat GPT API for Movies Suggestions",
+        "image": "https://images.unsplash.com/photo-1493397212122-2b85dda8106b?w=400&h=250&fit=crop",
+        "url": "https://netflwithgpt.netlify.app/",
+        "github": "https://github.com/ross406/Netflix-With-GPT",
+        "technologies": ["React", "GPT API", "Firebase"]
+      },
+      {
+        "title": "Sort Visualizer",
+        "category": "Educational",
+        "description": "Interactive tool that visually demonstrates how different sorting algorithms work.",
+        "image": "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=400&h=250&fit=crop",
+        "url": "https://sortvisualizer-fk4m.onrender.com/",
+        "github": "https://github.com/ross406/SortVisualizer",
+        "technologies": ["React", "Algorithms", "Animation"]
+      },
+      {
+        "title": "Amazon Clone",
+        "category": "E-commerce",
+        "description": "Amazon Clone built with ReactJS, Stripe Payment Gateway",
+        "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=250&fit=crop",
+        "url": "https://clone-2a6eb.firebaseapp.com/",
+        "github": "https://github.com/ross406/amazon-clone",
+        "technologies": ["React", "Stripe", "Firebase"]
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "It is with much pleasure that I take this opportunity to write a personal recommendation for Roshan Sharma. He has been a crucial member of the web development team of Broadway Society and was working as a Full Stack Developer since he joined us on 04th April 2020 till 04th July 2020. His task was to design and build our website - www.broadwaysociety.in , which he successfully did, and the organisation is really proud of him.",
+        "user": "Aayush Kumar Jha",
+        "position": "Founder and Director Broadway Society",
+        "avatar": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=100&h=100&fit=crop&crop=face"
+      },
+      {
+        "text": "I have had the privilege of working with Roshan for the a year at Litmusblox as a full-stack software engineer. During this time, I have been thoroughly impressed with his technical abilities, leadership skills, and overall dedication to his work. Roshan has been instrumental in the success of our projects at Litmusblox.",
+        "user": "Suraj Wadje",
+        "position": "Colleague from Broadway Society and LitmusBlox",
+        "avatar": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=100&h=100&fit=crop&crop=face"
+      },
+      {
+        "text": "I had the pleasure of working with Roshan for few years and I highly recommend him for any professional opportunity. Roshan is an exceptional individual who brings a unique combination of technical expertise and outstanding interpersonal skills to any project.",
+        "user": "Sumit Mullur",
+        "position": "Former Colleague",
+        "avatar": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=100&h=100&fit=crop&crop=face"
+      }
+    ]
+  }
+}
