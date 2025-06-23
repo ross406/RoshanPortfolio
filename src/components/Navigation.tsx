@@ -53,7 +53,7 @@ const Navigation = ({ resumedownload }: NavigationProps) => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className={`text-2xl font-bold theme-transition ${
+          <div onClick={() => scrollToSection('#hero')} className={`text-2xl font-bold theme-transition cursor-pointer ${
             isDarkMode ? 'text-white' : 'text-gray-900'
           }`}>
             Roshan<span className="text-purple-400">.dev</span>

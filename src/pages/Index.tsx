@@ -113,7 +113,7 @@ const Index = () => {
             <p className={`theme-transition ${
               isDarkMode ? 'text-gray-400' : 'text-gray-600'
             }`}>
-              © 2024 Roshan Sharma. All rights reserved. Built with React, TypeScript & Tailwind CSS.
+              © 2025 Roshan Sharma. All rights reserved. Built with React, TypeScript & Tailwind CSS.
             </p>
           </div>
         </footer>

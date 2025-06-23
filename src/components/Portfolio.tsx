@@ -74,7 +74,7 @@ const Portfolio = ({ projects }: PortfolioProps) => {
                         ? "bg-gradient-to-r from-indigo-600 to-blue-600 text-white hover:from-indigo-700 hover:to-blue-700"
                         : isDarkMode
                           ? "border-white/30 text-white hover:bg-white/10 hover:text-white"
-                          : "border-slate-700 text-slate-700 hover:bg-slate-700 hover:text-white"
+                          : "border-slate-700 text-slate-700 hover:bg-slate-700 hover:text-white bg-white"
                     }`}
                   >
                     {category}
@@ -90,7 +90,7 @@ const Portfolio = ({ projects }: PortfolioProps) => {
               <AnimatedElement key={index} delay={100 + (index * 100)}>
                 <Card className={`group backdrop-blur-sm border hover:scale-105 transition-all duration-300 overflow-hidden theme-transition ${
                   isDarkMode 
-                    ? 'bg-white/10 border-white/20 hover:bg-white/15' 
+                    ? 'bg-white/5 border-white/20 hover:bg-white/15' 
                     : 'bg-white/90 border-slate-200 hover:bg-white shadow-lg hover:shadow-xl'
                 }`}>
                   <div className="relative overflow-hidden">
@@ -172,7 +172,7 @@ const Portfolio = ({ projects }: PortfolioProps) => {
                         className={`text-xs py-1.5 px-2 theme-transition ${
                           isDarkMode 
                             ? 'border-white/30 text-white hover:bg-white/10' 
-                            : 'border-slate-300 text-slate-700 hover:bg-slate-100'
+                            : 'border-slate-300 text-slate-700 hover:bg-slate-100 bg-white'
                         }`}
                         onClick={() => window.open(project.github, '_blank')}
                       >

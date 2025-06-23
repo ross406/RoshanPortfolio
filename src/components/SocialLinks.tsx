@@ -1,6 +1,8 @@
 
 import React from 'react';
-import { Facebook, Github, Instagram, Linkedin } from 'lucide-react';
+import { Facebook, Github, Instagram, Linkedin, SquareCode } from 'lucide-react';
+
+
 import { useTheme } from '@/contexts/ThemeContext';
 
 interface SocialLinksProps {
@@ -15,6 +17,7 @@ const SocialLinks = ({ social }: SocialLinksProps) => {
   const { isDarkMode } = useTheme();
   const iconMap = {
     facebook: Facebook,
+    leetcode: SquareCode,
     github: Github,
     instagram: Instagram,
     linkedin: Linkedin,

@@ -25,7 +25,7 @@ const Hero = ({ data }: HeroProps) => {
   const [displayText, setDisplayText] = useState('');
   const [currentRole, setCurrentRole] = useState(0);
   const { isDarkMode } = useTheme();
-  const roles = ['Full Stack Developer', 'React Specialist', 'Node.js Expert', 'Tech Lead'];
+  const roles = ['Full Stack Software Developer', 'React Specialist', 'Senior Software Engineer', 'Lead Developer'];
 
   useEffect(() => {
     const text = roles[currentRole];
@@ -46,7 +46,7 @@ const Hero = ({ data }: HeroProps) => {
   }, [currentRole]);
 
   return (
-    <section className={`min-h-screen flex items-center justify-center relative overflow-hidden theme-transition ${
+    <section id="hero" className={`min-h-screen flex items-center justify-center relative overflow-hidden theme-transition ${
       isDarkMode 
         ? 'bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900' 
         : 'bg-gradient-to-br from-slate-50 via-white to-blue-50'
@@ -121,7 +121,7 @@ const Hero = ({ data }: HeroProps) => {
               className={`border-2 px-8 py-3 text-lg font-semibold rounded-full backdrop-blur-sm transition-all duration-300 hover:scale-105 theme-transition ${
                 isDarkMode 
                   ? 'border-white/30 text-white hover:bg-white/10' 
-                  : 'border-slate-300 text-slate-900 hover:bg-slate-100'
+                  : 'border-slate-300 text-slate-900 hover:bg-slate-100 bg-white'
               }`}
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             >

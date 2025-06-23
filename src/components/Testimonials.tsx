@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
+import { CircleUserRound } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Quote, ChevronLeft, ChevronRight, Play, Pause } from 'lucide-react';
 import { useTheme } from '@/contexts/ThemeContext';
