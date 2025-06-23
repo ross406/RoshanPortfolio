@@ -108,7 +108,7 @@ const Testimonials = ({ testimonials }: TestimonialsProps) => {
                   className={`rounded-full border transition-all duration-300 hover:scale-105 theme-transition ${
                     isDarkMode 
                       ? 'border-purple-400 text-purple-400 hover:bg-purple-400/10' 
-                      : 'border-purple-500 text-purple-600 hover:bg-purple-50'
+                      : 'border-purple-500 text-purple-600 hover:bg-purple-50 bg-white'
                   }`}
                 >
                   <ChevronLeft className="w-4 h-4" />
@@ -135,7 +135,7 @@ const Testimonials = ({ testimonials }: TestimonialsProps) => {
                   className={`rounded-full border transition-all duration-300 hover:scale-105 theme-transition ${
                     isDarkMode 
                       ? 'border-purple-400 text-purple-400 hover:bg-purple-400/10' 
-                      : 'border-purple-500 text-purple-600 hover:bg-purple-50'
+                      : 'border-purple-500 text-purple-600 hover:bg-purple-50 bg-white'
                   }`}
                 >
                   {isAutoPlay ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4" />}
@@ -148,7 +148,7 @@ const Testimonials = ({ testimonials }: TestimonialsProps) => {
                   className={`rounded-full border transition-all duration-300 hover:scale-105 theme-transition ${
                     isDarkMode 
                       ? 'border-purple-400 text-purple-400 hover:bg-purple-400/10' 
-                      : 'border-purple-500 text-purple-600 hover:bg-purple-50'
+                      : 'border-purple-500 text-purple-600 hover:bg-purple-50 bg-white'
                   }`}
                 >
                   <ChevronRight className="w-4 h-4" />
