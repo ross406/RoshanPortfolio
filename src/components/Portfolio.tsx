@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Github, Filter } from 'lucide-react';
+import { ExternalLink, Github, Filter, Youtube } from 'lucide-react';
 import { useTheme } from '@/contexts/ThemeContext';
 import AnimatedElement from './AnimatedElement';
 
@@ -14,6 +14,7 @@ interface Project {
   image: string;
   url: string;
   github: string;
+  videoDemo?: string;
   technologies: string[];
 }
 
@@ -29,7 +30,7 @@ const Portfolio = ({ projects }: PortfolioProps) => {
   const filteredProjects = selectedCategory === 'All' 
     ? projects 
     : projects.filter(project => project.category === selectedCategory);
-
+   
   return (
     <section className={`py-20 theme-transition ${
       isDarkMode 
@@ -108,6 +109,15 @@ const Portfolio = ({ projects }: PortfolioProps) => {
                       >
                         <ExternalLink className="w-3 h-3" />
                       </Button>
+                      { project.videoDemo &&
+                        <Button
+                        size="sm"
+                        className="bg-gray-800 hover:bg-gray-700 text-white rounded-full p-1.5 h-auto"
+                        onClick={() => window.open(project.videoDemo, '_blank')}
+                      >
+                        <Youtube className="w-3 h-3 text-white" />
+                      </Button>
+                      }
                       <Button
                         size="sm"
                         className="bg-gray-800 hover:bg-gray-700 text-white rounded-full p-1.5 h-auto"
@@ -166,6 +176,20 @@ const Portfolio = ({ projects }: PortfolioProps) => {
                         <ExternalLink className="w-3 h-3 mr-1" />
                         Live
                       </Button>
+                      { project.videoDemo &&
+                        <Button
+                        size="sm"
+                        variant="outline"
+                        className={`text-xs py-1.5 px-2 theme-transition ${
+                          isDarkMode 
+                            ? 'border-white/30 text-white hover:bg-white/10' 
+                            : 'border-slate-300 text-slate-700 hover:bg-slate-100 bg-white'
+                        }`}
+                        onClick={() => window.open(project.videoDemo, '_blank')}
+                      >
+                        <Youtube className="w-3 h-3" />
+                      </Button>
+                      }
                       <Button
                         size="sm"
                         variant="outline"

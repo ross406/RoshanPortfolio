@@ -15,7 +15,7 @@
       "zip": "411023"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "https://drive.google.com/file/d/1Waqky0XUtS2ECJr9RWM6x1XO_REWIHtJ/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1Ub_JgVj3R8AeRFL6dY5n1ZvJNKo33QYh/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -40,6 +40,13 @@
     ]
   },
   "certifications": [
+     {
+      "title": "Namaste JavaScript Certificate",
+      "issuer": "NamasteDev.com",
+      "date": "June 2025",
+      "credentialId": "4D44198259C139A8724665AB84B",
+      "url": "https://namastedev.com/roshansharma406/certificates/namaste-javascript"
+    },
     {
       "title": "HackerRank React (Basic) Certificate",
       "issuer": "HackerRank",
@@ -187,6 +194,16 @@
   },
   "portfolio": {
     "projects": [
+       {
+        "title": "Calendra",
+        "category": "Scheduling",
+        "description": "An AI-powered scheduler using Next.js 15, React Hook Form, and Clerk for Google Sign-In and Google Calendar API",
+        "image": "/images/Calendra.webp",
+        "url": "https://calendra-chi.vercel.app/",
+        "github": "https://github.com/ross406/Calendra",
+        "videoDemo": "https://www.youtube.com/watch?v=z_rC-8Ivzoc",
+        "technologies": ["Next.js 15", "React", "Clerk", "Neon", "Postgres", "DrizzleORM" ]
+      },
       {
         "title": "ProShop",
         "category": "E-commerce",
@@ -221,6 +238,7 @@
         "image": "/images/netflix-min.png",
         "url": "https://netflwithgpt.netlify.app/",
         "github": "https://github.com/ross406/Netflix-With-GPT",
+        "videoDemo": "https://www.youtube.com/watch?v=l_xc0Yp-59s",
         "technologies": ["React", "GPT API", "Firebase"]
       },
       {
