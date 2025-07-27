@@ -246,8 +246,8 @@
         "category": "Educational",
         "description": "Interactive tool that visually demonstrates how different sorting algorithms work.",
         "image": "/images/sort.png",
-        "url": "https://sortvisualizer-fk4m.onrender.com/",
-        "github": "https://github.com/ross406/SortVisualizer",
+        "url": "https://sortvisualizer.netlify.app/",
+        "github": "https://github.com/ross406/SortVisualizerReact",
         "technologies": ["React", "Algorithms", "Animation"]
       },
       {

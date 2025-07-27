@@ -1,73 +1,120 @@
-# Welcome to your Lovable project
+# 🧑‍💻 Roshan Sharma – Developer Portfolio
 
-## Project info
+A fully responsive and beautifully designed personal developer portfolio built with React, Vite, TailwindCSS, ShadCN UI, and Radix UI. It showcases your projects, experience, skills, testimonials, and a contact form — everything a modern frontend or full-stack developer needs in a digital resume.
 
-**URL**: https://lovable.dev/projects/f450cb29-f62f-499a-91e5-4269c6fc5d20
+🌐 **Live Demo**: [https://roshan-sharma-dev.netlify.app](https://roshan-sharma-dev.netlify.app)
 
-## How can I edit this code?
+![Portfolio Preview](./portfolio.png)
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ✨ Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f450cb29-f62f-499a-91e5-4269c6fc5d20) and start prompting.
+- 🔥 Sleek Hero Section with Photo, Title & Socials
+- 🧩 Project Portfolio Grid with Hover Previews
+- 👨‍💼 About Me and Work/Education Timeline
+- 🛠️ Skill Bars Categorized by Domain
+- 📜 Certifications List with Details
+- 💬 Testimonials Section
+- 📬 Contact Form with Email Integration
+- 🌙 Light/Dark Theme Toggle (via `next-themes`)
+- 🎯 Fully responsive & mobile-friendly
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🧪 Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+| Layer            | Tech/Lib                                     |
+|------------------|----------------------------------------------|
+| Framework        | `React`, `React Router`, `Vite`              |
+| Styling          | `Tailwind CSS`, `tailwindcss-animate`        |
+| UI Components    | `ShadCN UI`, `Radix UI`, `Lucide Icons`      |
+| Forms            | `react-hook-form`, `zod`, `@hookform/resolvers` |
+| Carousel         | `embla-carousel-react`                       |
+| Charts           | `Recharts`                                   |
+| Animations       | `tailwindcss-animate`, `clsx`, `cva`         |
+| State/Theme      | `next-themes`, `react-query`, `vaul`         |
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠 Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+# Clone the repo
+git clone https://github.com/your-username/roshan-portfolio.git
+cd roshan-portfolio
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
+````
+
+---
+
+## 📜 Scripts
+
+| Script              | Description               |
+| ------------------- | ------------------------- |
+| `npm run dev`       | Start local dev server    |
+| `npm run build`     | Build for production      |
+| `npm run preview`   | Preview production build  |
+| `npm run lint`      | Run ESLint checks         |
+| `npm run build:dev` | Build in development mode |
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── components/       # Reusable UI components
+├── pages/            # Route components (Home, Projects, Contact)
+├── data/             # Portfolio data (projects, skills, testimonials)
+├── config/           # portfolio-config.json for personal details
+├── hooks/            # Custom hooks
+├── lib/              # Utility functions
+├── styles/           # Tailwind configs
+└── App.tsx           # Main App
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## ✏️ Easy Customization
 
-**Use GitHub Codespaces**
+You can personalize this portfolio **without modifying the core code**.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Just edit the `portfolio-config.json` file to:
 
-## What technologies are used for this project?
+* 🧑‍💼 Update your **name, title, and bio**
+* 📦 Add or modify **projects**
+* 🧠 Add **skills and tools**
+* 🎓 Update **education and work experience**
+* 💬 Add **testimonials**
+* 📜 Manage **certifications**
+* 📫 Set up **social links and contact info**
 
-This project is built with:
+> ✨ No need to touch JSX or layout code — all updates are config-driven!
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🎯 Highlights
 
-Simply open [Lovable](https://lovable.dev/projects/f450cb29-f62f-499a-91e5-4269c6fc5d20) and click on Share -> Publish.
+* ✨ Smooth animations using `tailwindcss-animate`
+* 🎨 Theming with `next-themes`
+* 📊 Visualized skill bars via `Recharts`
+* 💌 Contact form validation using `zod` and `react-hook-form`
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📄 License
+
+MIT License © 2025 [Roshan Sharma](https://roshan-sharma-dev.netlify.app)
+
+---
+
+

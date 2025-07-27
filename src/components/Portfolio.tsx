@@ -140,7 +140,7 @@ const Portfolio = ({ projects }: PortfolioProps) => {
                         {project.category}
                       </Badge>
                     </div>
-                    <p className={`text-sm mb-3 line-clamp-2 theme-transition ${
+                    <p  title={project.description} className={`text-sm mb-3 line-clamp-2 theme-transition ${
                       isDarkMode ? 'text-gray-300' : 'text-slate-600'
                     }`}>{project.description}</p>
                     <div className="flex flex-wrap gap-1 mb-3">
