@@ -73,7 +73,7 @@ const Hero = ({ data }: HeroProps) => {
                 isDarkMode ? 'border-gray-600' : 'border-gray-700'
               }`}>
                 <img
-                  src="/lovable-uploads/f4cb0829-d74c-44d4-93f7-6c901b0b8db3.png"
+                  src="/lovable-uploads/myPic.webp"
                   alt={data.name}
                   className="w-full h-full object-cover"
                 />
